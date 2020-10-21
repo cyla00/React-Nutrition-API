@@ -15,8 +15,8 @@ class Search extends React.Component {
 
 
 _getFood(){
-  const API_ID = '47dbc2fe';
-  const API_TOKEN = '54bf8cb15a0cb7eedbe9be23c01061bb';
+  const API_ID = '';
+  const API_TOKEN = '';
   const url='https://api.edamam.com/api/food-database/v2/parser?ingr='+ this.state.searchText +'&app_id='+API_ID+'&app_key='+API_TOKEN+'';
 
   fetch(url)
